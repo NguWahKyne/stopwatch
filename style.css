@@ -1,0 +1,31 @@
+body{
+    /* background-color:#343a40 !important; */
+    text-align: center !important;
+    background-image: url("bgwatch.jpg"); 
+    /* background-position: center; */
+    background-size:cover;
+    background-repeat: no-repeat;  
+    height:100% !important; 
+}
+.container{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    margin-top:15%;
+}
+
+.stopWatch{
+    color:#bfafd4db;
+    font-size:120px;
+    font-weight: bold;
+}
+button{
+    margin:10px;
+}
+
+.btn, .btn.hover,.btn.active {
+    background-color:#a898bb5e;
+    border-color:#c6b3dc29;
+    color:#ffffff !important;
+}
